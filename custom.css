@@ -40,12 +40,6 @@ header {
 	z-index:100;
 	border-bottom:1px solid rgba(0, 0, 0, 0.1);
 }
-
-
-  
-
-
-
 #menu-icon ul {
 	list-style: none;
         float: right;
@@ -76,11 +70,9 @@ nav li {
 }
 .header-menu a:hover {
 	border-bottom: 2px solid #fcc626;
-        /*color:#f33670;  */     
 }
 #menu-icon {
-	
-	display: hidden;
+        display: hidden;
 	width: 32px;
 	height: 32px;
         display: none; 
@@ -263,8 +255,7 @@ box2{
 	font-size:54px;
 	line-height: 52px;
 	text-align: center;
-	
-	margin-bottom:50px;
+        margin-bottom:50px;
 	color:#ffffff;
 	font-weight: 300;
 }
@@ -272,13 +263,12 @@ box2{
 	text-align: center;
 }
 video{
-         height: auto;
+        height: auto;
 }
 .home-sign-up{
         padding: 90px 0;
 }
 input[type=text]{
-	/*width:25%;*/
 	border: none;
 	border-bottom: 1px solid #eaeaea;
 	padding: 4px;
@@ -289,20 +279,16 @@ input[type=text]{
         margin: 9px 30px 0 0;
 }
 .sign-up h3{
-       /* width: 25%;*/
-	font-size:30px;
+        font-size:30px;
         font-weight: 300;
         line-height: 52px;
 	color:rgb(74, 74, 74);
         margin-right: 30px;
-	/*float: left;*/
 }
 .login-form{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-        /*clear: both;*/
-        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
 }
 .clearfix:after{
 	content: '';
@@ -393,7 +379,6 @@ p .company-name{
 footer{
 	background-color:#1e1e1e;
 }
-
 .footer-outerlink .footer-btm-text{
         margin:16px 0 0;
         line-height: 16px;
@@ -402,13 +387,12 @@ footer{
         text-decoration: none;
 }
 .footer-outerlink{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
 }
 .docub-innerlink{
-  
-    margin: 0 15px;
+        margin: 0 15px;
 }
 .social-icon a{
         height:45px;
@@ -424,114 +408,88 @@ footer{
         line-height: 20px;
 }	
 
-
+/*-------------------Media Query--------------------------------------------------*/
 
 @media (min-width : 992px) 
 and (max-width : 1199px){
-    
     .container{
         max-width: 960px;
         margin: auto;
         padding-left: 15px;
         padding-right: 15px;
 }
-
-    
     nav li{
-            margin: 0 10px 0 10px;
-    }
+        margin: 0 10px 0 10px;
+}
     .article p{
         padding:0 50px 82px 50px;
-       margin-bottom: 0;
-    }
-
-input[type=text]{
+        margin-bottom: 0;
+}
+    input[type=text]{
         margin: 9px 17px 0 0;
 }
-.signupbtn{
+    .signupbtn{
         margin: 0 20px 0 20px;
 }
-.box1
-{
-    padding: 100px 0 0 0;
+    .box1{
+        padding: 100px 0 0 0;
 }
-
 }
 
 @media (min-width: 768px) 
 and (max-width: 991px){
     .signupbtn{
-            margin: 0 16px 0 16px;
-    }
+        margin: 0 16px 0 16px;
+}
     .sign-up h3{
         width: auto;
-    }
+}
     input[type=text]{
-       width: auto;
-           margin: 9px 25px 0 0;
-    }
-    
+        width: auto;
+        margin: 9px 25px 0 0;
+}
 }
   
  @media(max-width: 991px){
-  #menu-icon{
- display:block;
- float:right;
- height: 90px;
- line-height: 90px;
- }
- /*   #menu-icon:hover header {
-     display: block;
-    
-  }*/
- nav ul, nav:active ul{
-display: none;
-    position: absolute;
-    background: #c5c5c5;
-    left: 0;
-    top: 90px;
-    padding: 0;
-    margin: 0;
-    width: 100%;
+    #menu-icon{
+        display:block;
+        float:right;
+        height: 90px;
+        line-height: 90px;
 }
- /* nav ul, nav:active ul { 
- display: none;
- position: absolute;
- padding: 20px;
- background: #c5c5c5;
- right: 10px;
- top: 65px;
- width: 35%;
- }*/
- nav li {
- text-align: center;
 
- padding:0;
- margin:12px 0;
+    nav ul, nav:active ul{
+        display: none;
+        position: absolute;
+        background: #c5c5c5;
+        left: 0;
+        top: 90px;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+}
+    nav li {
+        text-align: center;
+        padding:0;
+        margin:12px 0;
  }
- header{
-     position: absolute;
+    header{
+        position: absolute;
  }
- nav li{
-     display: block;
- }
-/* nav:hover ul  {
- display: block;
-  width: 100%;
- }*/
- .navbar{
-     line-height: 50px;
-     
- }
- .box1{
+    nav li{
+        display: block;
+}
+    .navbar{
+        line-height: 50px;
+}
+    .box1{
         padding: 100px 0 0 0;
-    }
-    
- }
+}
+}
  @media(max-width: 767px){
      h2{
-         font-size: 30px;
-         line-height: 1.5;
+        font-size: 30px;
+        line-height: 1.5;
      }
      h3.content-heading{
          font-size:30px;
