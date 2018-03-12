@@ -634,10 +634,6 @@ span {
        
         padding: 0 20px;
 }
-/*.b-border{
-    border: 2px solid #e0e2e3;
-    border-radius: 25px 25px 25px 25px;
-}*/
 .search-bar{
         width:100%;
         padding: 0 20px;
@@ -763,7 +759,7 @@ ul.tabs li:hover:after{
 }
 
 ul.tabs {
-        height: 60px;
+        
         line-height: 60px;
         list-style: none;
 }
@@ -1201,4 +1197,5 @@ and (max-width: 991px){
 .faq-heading{
     font-size: 18px;
 }
+
 }
